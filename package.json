@@ -16,6 +16,8 @@
     "@react-three/xr": "^6.2.12",
     "@use-gesture/core": "10.2.24",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "lucide": "^0.447.0",
+    "lucide-react": "^0.447.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "three": "^0.151.3",
