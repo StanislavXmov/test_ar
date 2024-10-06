@@ -18,7 +18,7 @@ export function Model() {
   const x = usePosition(s => s.x);
   const z = usePosition(s => s.z);
   const y = usePosition(s => s.y);
-  const { nodes, materials } = useGLTF('./1.glb') as CharacterGLTF;
+  const { nodes, materials } = useGLTF('./1.glb') as unknown as CharacterGLTF;
   
   return (
     <group dispose={null} position={[x, 0, z]} rotation={[0, y, 0]}>
