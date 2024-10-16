@@ -42,6 +42,30 @@
   }
 }
 
+.select {
+  padding: 16px 24px;
+  position: absolute;
+  z-index: 10000;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color .25s, border-color .25s, background-color .25s;
+  border-radius: 6px;
+  background-color: #f6f6f7;
+  display: inline-flex;
+  font-size: 24px;
+
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #e4e4e9;
+  }
+}
+
 .buttonsGrid {
   display: grid;
   grid-template-columns: 38px 38px 38px 38px 38px;
